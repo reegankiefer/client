@@ -1,1 +1,88 @@
 /* You can add global styles to this file, and also import other style files */
+// GENERAL
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.inline{
+    display: inline;
+}
+
+// FONTS 
+.interBOLD {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.work-sansLT{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+// <weight>: Use a value from 300 to 800
+// <uniquifier>: Use a unique and descriptive class name
+.open-sansMd{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+// FONT SIZES 
+h1{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3em;
+}
+
+h2{
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+}
+
+p{
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+//   font-size: 4em;  
+}
+
+// BUTTONS
+.boxBtn{
+    border: 1px solid black;
+    border-radius: 0%;
+    background-color: white;
+}
+
+.btn{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    padding: 2%;
+
+}
+
+.btnShadow{
+        box-shadow: 1px 1px 5px rgb(118, 118, 118);
+}

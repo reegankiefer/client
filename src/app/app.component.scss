@@ -1,0 +1,38 @@
+.banner{
+    background-color: #008000;
+    color: white;
+}
+
+.logo{
+    img{
+        width: 20%;
+    }
+}
+
+
+
+.footer{
+    .logo{
+        img{
+            width: 10%;
+        }
+    }
+}
+
+.subscribe{
+    border: 1px solid black;
+
+    .form-control{
+        border: 0;
+        border-radius: 0%;
+        border-bottom: 2px solid blue;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+.btn{
+    padding: 0;
+}
+
+

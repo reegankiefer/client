@@ -1,0 +1,136 @@
+main{
+    // background-color: rgb(233, 233, 233);
+
+    .btn{
+        border: solid black 1px;
+        border-radius: 0%;
+    }
+}
+
+.hero{
+    border: 1px solid black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    // height: 55vh;
+    background-color: white;
+
+    .btn{
+        display: block;
+        margin: auto;
+        font-size: x-large;
+    }
+
+    
+    .imageContainer {
+        width: 100%;
+        height: 100%;
+        // overflow: hidden;
+        padding: 2%;
+        border: 1px solid black;
+        // object-fit: fill;
+        background-image: url(/nightFlowers.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // position: relative;
+
+    }
+}
+
+.handSelected{
+    // height: 50vh;
+    background-color: rgb(217, 217, 217);
+
+    .imageContainer{
+        background-image: url(/concrete\ .jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .btn{
+        background-color: white;
+        padding: 3%;
+    }
+
+}
+
+.shopByFamily{
+
+    .familyBox{
+
+        .familyImg{
+            border: 1px solid black;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            height: 20vh;
+            
+        }
+
+        .text  {
+            border: 1px  solid black;
+            background-color: white;
+            text-align: center;
+
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+}
+
+.newArrivals{
+    border: 1px solid black;
+    background-color: white;
+
+    .productBox{
+        justify-content: center;
+        display: block;
+        .imageContainer{
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 30vh;
+            }
+
+            }
+
+
+        p{
+            text-align: center;
+            margin: 0;
+        }
+
+        .btn{
+            display: block;
+            margin: auto;
+            // font-size: xx-large;
+            border: 1px solid black;
+            border-radius: 0%;
+            background-color: white;
+            font-size: medium;
+            font-weight: 400;
+        }
+    }
+    
+
+    
+}
+
+.whoWeAre{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+
+    .imageContainer{
+        background-image: url(/who\ we\ are\ Flower.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+}

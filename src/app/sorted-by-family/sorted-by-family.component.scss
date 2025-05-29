@@ -1,0 +1,79 @@
+.btn{
+    border: 1px solid black;
+    border-radius: 0%;
+    background-color: white;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.title{
+
+    .text{
+        border: black solid 1px;
+        background-color: white;
+    }
+    
+    img{
+        width: 100%;
+        height: auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 1px solid black;
+        }
+    }
+
+.filters{
+    .form-select{
+        display: inline;
+        margin: 2vh;
+        width: 30vh;
+        border-radius: 0%;
+        border: black 1px solid;
+    }
+}
+.products{
+    border: 1px solid black;
+    background-color: white;
+
+.productBox{
+        justify-content: center;
+        display: block;
+        .imageContainer{
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 30vh;
+            }
+
+            }
+
+
+        p{
+            text-align: center;
+            margin: 0;
+        }
+
+        .btn{
+            display: block;
+            margin: auto;
+            // font-size: xx-large;
+        }
+    }
+}
+
+.whoWeAre{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+
+    .imageContainer{
+        background-image: url(/nightFlowers.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+}

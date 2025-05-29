@@ -1,0 +1,45 @@
+.edit{
+    background-color: white;
+    border: black 1px solid;
+    width: 70vh;
+}
+
+.brand{
+    display: inline;
+}
+.form-select{
+        display: inline;
+        // margin: 2vh;
+        border-radius: 0%;
+        border: black 1px solid;
+        width: 30vh;
+}
+
+.form-control{
+        border: black 1px solid;
+        border-radius: 0%;
+}
+
+.inStock{
+    display: inline;
+}
+
+.name  {
+    display: inline;
+
+    .form-control{
+    width: 30vh;
+    }
+}
+
+
+// .form-group{
+//     border: 1px solid black;
+//     border-radius: 0%;
+// }
+
+.image{
+    img{
+        width: 20vh;
+    }
+}

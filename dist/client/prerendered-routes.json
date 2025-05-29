@@ -1,0 +1,12 @@
+{
+  "routes": {
+    "/": {},
+    "/admin": {},
+    "/admin/add": {},
+    "/admin/edit": {},
+    "/admin/login": {},
+    "/categories/family": {},
+    "/categories/family/product": {},
+    "/products": {}
+  }
+}

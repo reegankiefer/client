@@ -1,5 +1,5 @@
-  <div class="banner p-1 m-0 sticky-top">
-      <p class="text-center m-0">15% off & free shipping on your first order</p>
+  <div class="banner p-2 m-0 sticky-top ">
+      <p class="text-center m-0 work-sansLT">15% off & free shipping on your first order</p>
     </div>
 
 
@@ -16,26 +16,28 @@
     <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" routerLink="/products" routerLinkActive="menuSelected" ><h5>shop all</h5></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <h5>shop by family</h5>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">wood</a></li>
-            <li><a class="dropdown-item" href="#">amber</a></li>
-            <li><a class="dropdown-item" href="#">floral</a></li>
-            <li><a class="dropdown-item" href="#">fresh</a></li>
-          </ul>
+          <a class="nav-link" aria-current="page" routerLink="/products" routerLinkActive="menuSelected" ><h5>Shop All</h5></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><h5>cart (0)</h5></a>
+          <a class="nav-link" aria-current="page" routerLink="/categories/family" routerLinkActive="menuSelected" ><h5>Wood</h5></a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/categories/family" routerLinkActive="menuSelected" ><h5>Amber</h5></a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/categories/family" routerLinkActive="menuSelected" ><h5>Fresh</h5></a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/categories/family" routerLinkActive="menuSelected" ><h5>Floral</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h5>Cart (0)</h5></a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
 <router-outlet />
 
 <!-- FOOTER -->
@@ -65,8 +67,9 @@
                 <div class="col-lg-1 col-md-10 mb-3 mb-md-0">
                 <h5 class="text-uppercase">COMPANY</h5>
                 <p>About</p>
-                <p>Loyalty's</p>
                 <p>Careers</p>
+                <h5 class="text-uppercase">Admin</h5>
+                <a class="nav-link" aria-current="page" routerLink="/admin/login" routerLinkActive="menuSelected" ><p>Login</p></a>
               </div>
             </div>
 

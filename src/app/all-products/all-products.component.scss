@@ -5,6 +5,19 @@
     font-size: medium;
     font-weight: 400;
 }
+
+.banner{
+    color: white;
+        background-image: url(/pexels-kaiya-inouye-559644190-32239161.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px black solid;
+
+    .col-5{
+        padding-left: 5%;
+    }
+}
 .filters{
     .form-select{
         display: inline;
